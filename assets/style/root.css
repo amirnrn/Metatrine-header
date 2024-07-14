@@ -1,0 +1,53 @@
+@font-face {
+    src: url('../font/SFUIDisplay-Bold.ttf');
+    font-family: "sfu";
+}
+
+body {
+    margin: 0;
+    font-family: sfu;
+}
+.color{
+    color: #4989fd;
+}
+a{
+    text-decoration: none;
+}
+.title {
+    font-size: 55px;
+    font-weight: 400;
+}
+.subtitle{
+    font-size: 14px !important;
+    color: #b1b1b1;
+}
+.header-item-size{
+    font-size: 35px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width: 950px) {
+    .title {
+        font-size: 45px;
+    }
+}
